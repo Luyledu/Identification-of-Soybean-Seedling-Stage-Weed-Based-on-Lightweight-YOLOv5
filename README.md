@@ -2,7 +2,7 @@
 
 Dataset
 
-you can download our dataset by visiting this link:
+you can download our dataset by visiting this link:https://www.kaggle.com/datasets/happymt/soybean-weed
 
 Train
 
