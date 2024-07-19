@@ -1,5 +1,4 @@
-Identification-of-Soybean-Seedling-Stage-Weed-Based-on-Lightweight-YOLOv5
-
+#Identification-of-Soybean-Seedling-Stage-Weed-Based-on-Lightweight-YOLOv5
 
 Dataset
 
