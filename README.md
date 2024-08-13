@@ -1,4 +1,4 @@
-#Identification-of-Soybean-Seedling-Stage-Weed-Based-on-Lightweight-YOLOv5
+#Research on Evolutionary Algorithm for Soybean Seedling and Weed Recognition Driven by Computational Complexity
 
 Dataset
 
