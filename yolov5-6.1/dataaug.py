@@ -42,7 +42,7 @@ class DataAugmentForObjectDetection():
                  crop_rate=0.5, shift_rate=0.5, change_light_rate=0.5,
                  add_noise_rate=0.5, flip_rate=0.5,
                  cutout_rate=0.5, cut_out_length=50, cut_out_holes=1, cut_out_threshold=0.5,
-                 is_addNoise=True, is_changeLight=True, is_cutout=True, is_rotate_img_bbox=True,
+                 is_addNoise=True, is_changeLight=True, is_cutout=False, is_rotate_img_bbox=True,
                  is_crop_img_bboxes=False, is_shift_pic_bboxes=True, is_filp_pic_bboxes=True):
 
         # 配置各个操作的属性
@@ -81,7 +81,7 @@ class DataAugmentForObjectDetection():
 
     # ---2.调整亮度--- #
     def _changeLight(self, img):
-        alpha = random.uniform(0.35, 1)
+        alpha = random.randint[0.4,0.5,0.6,0.7,0.8,0.9]
         blank = np.zeros(img.shape, img.dtype)
         return cv2.addWeighted(img, alpha, blank, 1 - alpha, 0)
 
